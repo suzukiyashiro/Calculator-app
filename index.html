@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div id="screen">0</div>
+        <div class="row">
+            <button class="btn gray">AC</button>
+            <button class="btn gray">±</button>
+            <button class="btn gray">%</button>
+            <button class="btn orange" data-operation="÷">÷</button>
+        </div>
+        <div class="row">
+            <button class="btn black">7</button>
+            <button class="btn black">8</button>
+            <button class="btn black">9</button>
+            <button class="btn orange" data-operation="×">&times;</button>
+        </div>
+        <div class="row">
+            <button class="btn black">4</button>
+            <button class="btn black">5</button>
+            <button class="btn black">6</button>
+            <button class="btn orange" data-operation="-">-</button>
+        </div>
+        <div class="row">
+            <button class="btn black">1</button>
+            <button class="btn black">2</button>
+            <button class="btn black">3</button>
+            <button class="btn orange" data-operation="+">+</button>
+        </div>
+        <div class="row">
+            <button class="btn black wide">0</button>
+            <button class="btn black">.</button>
+            <button class="btn orange" data-operation="=">=</button>
+        </div>
+    </div>
+    <script src="calc.js"></script>
+</body>
+</html>
